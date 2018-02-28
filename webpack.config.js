@@ -30,7 +30,6 @@ module.exports = {
     },
     resolve: {
         alias: {
-            vue: "vue/dist/vue.min.js",
             cesium: path.resolve(__dirname, "node_modules/cesium/Source")
         }
     },
