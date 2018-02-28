@@ -9,6 +9,7 @@ module.exports = {
     entry: './src/openmct-map',
     output: {
         path: path.resolve(__dirname, "dist"),
+        publicPath: "/dist/",
         filename: "openmct-map.js",
         library: "MapPlugin",
         libraryTarget: "umd",
