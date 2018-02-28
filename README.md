@@ -22,7 +22,7 @@ See [`index.html`](index.html) for an example of use.
 To serve the application, use `webpack-dev-server`:
 
 ```bash
-npm install -g webpack webpack-dev-server
+npm install -g webpack webpack-cli webpack-dev-server
 webpack-dev-server
 ```
 
